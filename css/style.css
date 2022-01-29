@@ -1,0 +1,234 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  background: #f0f0f0;
+}
+
+.topnav {
+  background: white;
+  overflow: hidden;
+  border-bottom: 0.5px solid rgb(235, 235, 235);
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  padding: 6px 6px;
+}
+
+.heading {
+  padding: 8px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+#mySidenav a {
+  position: absolute;
+  left: -25px;
+  transition: 0.3s;
+  padding: 5px 5px 5px 0;
+  width: 75px;
+  font-size: 20px;
+  color: black;
+  text-align: right;
+  border-radius: 0 5px 5px 0;
+  border: 0.5px solid rgb(235, 235, 235);
+}
+
+#mySidenav a:hover {
+  left: 0;
+}
+
+#mySidenavReflection a {
+  position: absolute;
+  right: -125px;
+  transition: 0.5s;
+  padding: 15px 15px 15px 5px;
+  width: 175px;
+  font-size: 17.5px;
+  color: black;
+  text-align: left;
+  border-radius: 5px 0 0 5px;
+  border: 0.5px solid rgb(235, 235, 235);
+}
+
+#mySidenavReflection a:hover {
+  right: 0;
+  text-align: center;
+}
+
+.background-color-white {
+  background-color: white;
+}
+
+.number1 {
+  top: 70px;
+}
+
+.number2 {
+  top: 130px;
+}
+
+.number1-5 {
+  top: 100px;
+}
+
+.number2-5 {
+  top: 160px;
+}
+
+.number3 {
+  top: 190px;
+}
+
+.center {
+  display: inline-block;
+  width: auto;
+  text-align: center!important;
+}
+
+.container {
+  content:"";
+  display: table;
+  clear: both;
+  padding: 0.01em 16px;
+}
+
+.padding-64 {
+  padding-top: 64px!important;
+  padding-bottom: 64px!important;
+}
+
+@media screen and (max-width: 600px) {
+  div.quarter {
+    width: 100%;
+    padding: 20px;
+  }
+}
+
+.row:after, .row:before {
+  content:"";
+  display: table;
+  clear: both;
+}
+
+.quarter {
+  float: left;
+  width: 25%;
+  padding: 0 8px;
+}
+
+.circle {
+  border-radius: 50%;
+}
+
+.hover-opacity:hover {
+  opacity: 0.50;
+}
+
+.wide {
+  font-size: 30px;
+  letter-spacing: 4px;
+}
+
+.addition {
+  color: gray;
+}
+
+.content {
+  max-width: 980px;
+  margin: auto;
+}
+
+.interview {
+  text-align: justify!important;
+  font-style: italic;
+  text-indent: 25px;
+}
+
+.signature {
+  text-align: right;
+  padding-right: 3%;
+  font-style: italic;
+}
+
+a:link, a:visited, a:hover, a:active {
+  text-decoration: none;
+  color: black;
+}
+
+.footer-color {
+  color: white!important;
+  background: linear-gradient(rgba(255, 255, 255, 0), black);
+}
+
+.shadow {
+  border: none;
+  display: inline-block;
+  overflow: hidden;
+  text-align: center;
+  white-space: nowrap;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.404);
+}
+
+.button {
+  border: none;
+  display: inline-block;
+  padding: 8px 16px;
+  vertical-align: middle;
+  overflow: hidden;
+  color: inherit;
+  background-color: inherit;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.black {
+  color: white!important;
+  background-color: #000!important;
+}
+
+.post {
+  margin: auto;
+  width: 50%;
+  padding: 20px 20px;
+  background: white;
+  border-radius: 3px;
+  border: 0.5px solid rgb(235, 235, 235);
+}
+
+@media screen and (max-width: 600px) {
+  div.post {
+    margin: auto;
+    width: 100%;
+    padding: 20px;
+    border-radius: 0;
+    border-left: none;
+    border-right: none;
+  }
+}
+
+.among-post {
+  padding-top: 15px;
+}
+
+.avatar {
+  margin: auto;
+  margin-top: 15px;
+  width: 300px;
+  padding: 20px;
+  text-align: center;
+}
+
+.arrow-left {
+  text-align: right;
+}
